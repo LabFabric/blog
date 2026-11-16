@@ -17,13 +17,13 @@
   title: How much does the CCNA cost?
   description: The $300 exam, retakes, UK checkout and CCNA v2.0, plus prices for CCNA Automation, Cybersecurity, CCNP and CISSP.
 - url: https://labfabric.pro/learn/vlans
-  image: /images/vlans-hero.png
+  image: /images/vlans-hero.gif
   category: Switching
   readingTime: 11 min read
   title: VLANs explained
   description: Access ports, trunks, and 802.1Q. Follow a frame through the network, then build a practical office design.
 - url: https://labfabric.pro/learn/subnetting
-  image: /images/subnetting-hero.png
+  image: /images/subnetting-hero.gif
   category: IP addressing
   readingTime: 12 min read
   title: Subnetting explained
