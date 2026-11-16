@@ -1,0 +1,8 @@
+baseURL = 'https://blog.labfabric.pro/'
+locale = 'en-GB'
+title = 'LabFabric Networking Blog'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+
+[markup.goldmark.renderer]
+  unsafe = false

@@ -1,0 +1,9 @@
+{{ define "main" }}
+<main id="main-content">
+  <header class="hero wrap"><h1>Networking, made clear.</h1><p>Visual CCNA 200-301 study guides from LabFabric. Each one explains a concept with worked examples and real Cisco configuration where it applies, then points you to a <a href="https://labfabric.pro/labs">hands-on lab</a> or <a href="https://labfabric.pro/subnetting-practice">practice questions</a> to lock it in.</p></header>
+  <section class="articles wrap" aria-labelledby="latest-articles"><div class="section-heading"><h2 id="latest-articles">Latest guides</h2><p>{{ add (len site.RegularPages) (len hugo.Data.existing_guides) }} articles</p></div><div class="grid">
+    {{ range site.RegularPages }}<a class="card" href="{{ .RelPermalink }}"><article><div class="card-image"><img src="{{ .Params.image }}" alt="" loading="lazy"></div><div class="card-body"><div class="card-meta"><span>{{ .Params.category }}</span><span>{{ .Params.readingTime }}</span></div><h3>{{ .Title }}</h3><p>{{ .Description }}</p><span class="read-more">Read guide <span aria-hidden="true">→</span></span></div></article></a>{{ end }}
+    {{ range hugo.Data.existing_guides }}<a class="card" href="{{ .url }}"><article><div class="card-image"><img src="{{ .image }}" alt="" loading="lazy"></div><div class="card-body"><div class="card-meta"><span>{{ .category }}</span><span>{{ .readingTime }}</span></div><h3>{{ .title }}</h3><p>{{ .description }}</p><span class="read-more">Read guide <span aria-hidden="true">→</span></span></div></article></a>{{ end }}
+  </div></section>
+</main>
+{{ end }}

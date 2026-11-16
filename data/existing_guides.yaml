@@ -1,0 +1,30 @@
+- url: https://labfabric.pro/learn/catalyst-center-esxi
+  image: /images/system-360-118-services-healthy.webp
+  category: Network automation
+  readingTime: 14 min read
+  title: Catalyst Center (DNA Center) ESXi Install Guide
+  description: Install Catalyst Center 2.3.7.9 on ESXi 8 with OVA import, Advanced Install, uber-dnac checks and troubleshooting.
+- url: https://labfabric.pro/ccna/salary
+  image: /images/ccna-salary-trend-cover.png
+  category: Careers
+  readingTime: 4 min read
+  title: CCNA salary trends
+  description: What network support, administrator, security and architect roles pay, charted from BLS data for 2019 to 2025.
+- url: https://labfabric.pro/ccna/cost
+  image: /images/ccna-exam-prices-cover.png
+  category: Exam planning
+  readingTime: 5 min read
+  title: How much does the CCNA cost?
+  description: The $300 exam, retakes, UK checkout and CCNA v2.0, plus prices for CCNA Automation, Cybersecurity, CCNP and CISSP.
+- url: https://labfabric.pro/learn/vlans
+  image: /images/vlans-hero.png
+  category: Switching
+  readingTime: 11 min read
+  title: VLANs explained
+  description: Access ports, trunks, and 802.1Q. Follow a frame through the network, then build a practical office design.
+- url: https://labfabric.pro/learn/subnetting
+  image: /images/subnetting-hero.png
+  category: IP addressing
+  readingTime: 12 min read
+  title: Subnetting explained
+  description: See how masks divide a network, work through real addressing examples, and practise the method yourself.
